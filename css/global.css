@@ -1,0 +1,77 @@
+/* black - #000000  
+navy - #14213D
+gold - #FCA311  (accent)
+light gray - #E5E5E5 
+white = #FFFFFF */
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-navy {
+  background-color: #14213d;
+}
+
+.bg-accent {
+  background-color: #fca311;
+}
+
+.bg-lightGray {
+  background-color: #e5e5e5;
+}
+
+.txt-black {
+  color: black;
+}
+
+.txt-navy {
+  color: #14213d;
+}
+
+.txt-accent {
+  color: #fca311;
+}
+
+.txt-accent a {
+  color: #fca311;
+  text-decoration: none !important;
+}
+
+.txt-accent a:hover, a:visited {
+  color: #e5e5e5;
+  text-decoration: underline;
+  
+}
+
+.txt-lightGray {
+  color: #e5e5e5;
+}
+
+.ps-light {
+  background-color: white;
+  height: 550px;
+  width: 100%;
+}
+
+.ps-gray {
+  background-color: #e5e5e5;
+  height: 550px;
+  width: 100%;
+}
+
+.parallax {
+  background-image: url("https://www.sunnysidecircus.com/wp-content/uploads/2019/03/Banh_Mi_Sandwich_fullwidth.jpg");
+
+  height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
